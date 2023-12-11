@@ -1,0 +1,56 @@
+body a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar {
+    background-color: #2CD33C;
+    height: 3.5rem;
+    position: relative;
+    margin-bottom: 3.5rem;
+}
+
+/* .navbar-nav {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: end;
+} */
+
+.navbar-nav li a {
+    color: white;
+}
+
+.container-fluid {
+    position: relative;
+}
+
+/* main section style */
+.main-section {
+    position: relative;
+    /* display: flex; */
+    height: 90vh;
+    top: 3.5rem;
+}
+
+.listTypes  {
+    width: 100%;
+    padding: 0;
+}
+
+.listTypes li {
+    list-style: none;
+    padding: 0;
+    margin-left: -12px;
+    margin-bottom: 0.5rem;
+}
+
+.listTypes li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.listTypes li a:hover {
+    color: greenyellow;
+}

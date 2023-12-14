@@ -11,26 +11,30 @@ body a {
     margin-bottom: 3.5rem;
 }
 
-/* .navbar-nav {
-    width: 100%;
+.navbar-nav {
+    width: 87%;
     background-color: red;
-    display: flex;
-    justify-content: end;
-} */
+}
+
+.navbar-collapse .logo-link {
+    color: aliceblue;
+}
+
+.navbar-collapse a:hover {
+    color: rgb(253, 251, 114);
+}
 
 .navbar-nav li a {
     color: white;
 }
 
-.container-fluid {
-    position: relative;
-}
+
 
 /* main section style */
 .main-section {
     position: relative;
     /* display: flex; */
-    height: 90vh;
+    /* height: 90vh; */
     top: 3.5rem;
 }
 
@@ -53,4 +57,15 @@ body a {
 
 .listTypes li a:hover {
     color: greenyellow;
+}
+
+.main-section .job-offer {
+    padding: 0;
+    margin: 0;
+}
+
+/* footer section style */
+.footer {
+    position: relative;
+    height: 25vh;
 }

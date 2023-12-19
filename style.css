@@ -21,10 +21,16 @@ body a {
 }
 
 .navbar-collapse a:hover {
-    color: rgb(253, 251, 114);
+    color: white;
 }
 
 .navbar-nav li a {
+    color: white;
+}
+
+.navbar-nav li:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
     color: white;
 }
 
@@ -56,7 +62,7 @@ body a {
 }
 
 .listTypes li a:hover {
-    color: greenyellow;
+    color: #D32CC3;
 }
 
 .main-section .job-offer {
@@ -68,4 +74,17 @@ body a {
 .footer {
     position: relative;
     height: 25vh;
+}
+
+.footer .row {
+    background-color: gold;
+}
+
+.footer .list-group li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer .list-group li a:hover {
+    color: #D32CC3;
 }

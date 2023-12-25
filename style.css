@@ -11,11 +11,6 @@ body a {
     margin-bottom: 3.5rem;
 }
 
-.navbar-nav {
-    /* width: 87%; */
-    background-color: red;
-}
-
 .navbar-collapse .logo-link {
     color: aliceblue;
 }
@@ -73,10 +68,11 @@ body a {
 /* footer section style */
 .footer {
     position: relative;
-    height: 25vh;
+    height: 20vh;
 }
 
 .footer .row {
+    position: relative;
     background-color: gold;
 }
 
@@ -88,3 +84,7 @@ body a {
 .footer .list-group li a:hover {
     color: #D32CC3;
 }
+
+
+/* media querries */
+/* @media (min-width: 480px) */

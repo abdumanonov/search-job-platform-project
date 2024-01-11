@@ -29,7 +29,9 @@ body a {
     color: white;
 }
 
-
+.navbar .offcanvas {
+    background-color: #2CD33C;
+}
 
 /* main section style */
 .main-section {
@@ -68,7 +70,7 @@ body a {
 /* footer section style */
 .footer {
     position: relative;
-    height: 20vh;
+    height: 10vh;
 }
 
 .footer .row {
@@ -85,6 +87,21 @@ body a {
     color: #D32CC3;
 }
 
+/* media querries*/
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 3.5rem;
+        display: flex;
+        align-self: center;
+    }
+}
 
-/* media querries */
-/* @media (min-width: 480px) */
+/* @media (min-width: 480px)
+
+
+.navbar {
+    background-color: #2CD33C;
+    height: 3.5rem;
+    position: relative;
+    margin-bottom: 3.5rem;
+} */

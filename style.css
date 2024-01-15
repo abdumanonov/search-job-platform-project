@@ -90,7 +90,7 @@ body a {
 /* media querries*/
 @media screen and (max-width: 768px) {
     .navbar {
-        height: 3.5rem;
+        height: 4.5rem;
         display: flex;
         align-self: center;
     }

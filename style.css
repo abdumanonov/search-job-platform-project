@@ -67,6 +67,17 @@ body a {
     margin: 0;
 }
 
+.main-section .job-offer h5:hover{
+    color: #D32CC3;
+    cursor: pointer;
+}
+
+.main-section .job-offer .fw-bolder{
+    font-size: 0.9em;
+}
+
+
+
 /* footer section style */
 .footer {
     position: relative;
@@ -75,12 +86,16 @@ body a {
 
 .footer .row {
     position: relative;
-    background-color: gold;
+    background-color: #F8F8F8;;
 }
 
 .footer .list-group li {
     list-style: none;
     margin-bottom: 1rem;
+}
+
+.footer .list-group li a{
+    color: #555;
 }
 
 .footer .list-group li a:hover {
